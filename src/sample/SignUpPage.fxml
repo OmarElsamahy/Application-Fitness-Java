@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="274.0" layoutY="309.0" mnemonicParsing="false" onAction="#SignUp" text="Sign Up" />
+      <Label layoutX="59.0" layoutY="52.0" text="UserName" />
+      <Label layoutX="59.0" layoutY="120.0" text="Password" />
+      <Label layoutX="59.0" layoutY="200.0" text="Email" />
+      <Label layoutX="65.0" layoutY="276.0" text="Weight" />
+      <Label layoutX="336.0" layoutY="52.0" text="Height" />
+      <Label layoutX="336.0" layoutY="120.0" text="Age" />
+      <Label layoutX="336.0" layoutY="200.0" text="Goal" />
+      <Label layoutX="74.0" layoutY="343.0" text="Tip: in Goal -&gt;1 for losing weight  2 for gaining weight and 3 for sustaining weight" />
+      <PasswordField fx:id="newPassword" layoutX="115.0" layoutY="116.0" />
+      <TextField fx:id="newUsername" layoutX="115.0" layoutY="48.0" />
+      <TextField fx:id="email" layoutX="115.0" layoutY="196.0" />
+      <TextField fx:id="weight" layoutX="115.0" layoutY="272.0" />
+      <TextField fx:id="height" layoutX="390.0" layoutY="48.0" />
+      <TextField fx:id="age" layoutX="390.0" layoutY="116.0" />
+      <TextField fx:id="goal" layoutX="390.0" layoutY="196.0" />
+      <Label layoutX="182.0" layoutY="369.0" text="Enter Weight in Kg and Height in Centimeters" />
+   </children>
+</AnchorPane>
